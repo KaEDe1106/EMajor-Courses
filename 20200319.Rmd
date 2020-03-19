@@ -1,0 +1,21 @@
+---
+title: "Plain HTML"
+output: 
+  html_document:
+    theme: null
+    highlight: null
+    mathjax: null
+    self_contained: false    
+    includes:
+      in_header: "external.html"
+---
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/National_Taipei_University_logo.svg/205px-National_Taipei_University_logo.svg.png"/>
+
+<img src="libraryyy.jpg"/>
+
+```{r echo=FALSE}
+library(htmltools)
+includeHTML("20200319table.html")
+```
+
